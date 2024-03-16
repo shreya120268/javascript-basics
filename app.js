@@ -60,3 +60,8 @@ const person = {
   console.log(student.courses)
   console.log(student.courses[0])
   console.log(student.courses[1].courseName)
+
+  // template strings
+  let myNewname="Shreya"
+
+  console.log>(`Hello,${myNewname}!`)
