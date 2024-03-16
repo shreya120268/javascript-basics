@@ -15,3 +15,48 @@ let nullvalue=null
 
 console.log(boolvalue)
 console.log(nullvalue)
+
+//  Array
+
+let arr = [1, 20, "John", "good"]
+// console.log(arr)
+
+let intergerArray = [2, 5, 7, 9, 11] 
+
+console.log(intergerArray.length)
+console.log(intergerArray[0])
+console.log(intergerArray[1])
+console.log(intergerArray[intergerArray.length-1])
+
+// Object
+
+const person = {
+    name: {
+      firstName: "John",
+      secondName: "Doe"
+    },
+    age: 25,
+    place: "London"
+  }
+  
+  // console.log(person)
+  
+  
+  const student = {
+    name: "Shreya",
+    age: 25,
+    courses: [
+      {
+        courseName: "JS",
+        courseCredits: 3
+      },
+      {
+        courseName: "MERN",
+        courseCredits: 4
+      }
+    ]
+  }
+  
+  console.log(student.courses)
+  console.log(student.courses[0])
+  console.log(student.courses[1].courseName)
