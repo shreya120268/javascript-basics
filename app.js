@@ -62,6 +62,23 @@ const person = {
   console.log(student.courses[1].courseName)
 
   // template strings
-  let myNewname="Shreya"
+  let myNewname="Shreya1"
 
-  console.log>(`Hello,${myNewname}!`)
+  console.log(`Hello,${myNewname}!`)
+
+  //Using prompt
+
+  const username= prompt("Enter username: ")
+  alert(`hello,${username}!`)
+
+  let a=7
+  let b=3
+  console.log(a+b)
+  console.log(a-b)
+  console.log(a*b)
+  console.log(a/b)
+  console.log(a%b)
+  a++
+  console.log(a)
+  b--
+  console.log(b)
