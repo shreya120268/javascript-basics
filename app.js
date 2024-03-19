@@ -70,6 +70,7 @@ const person = {
 
   const username= prompt("Enter username: ")
   alert(`hello,${username}!`)
+  // using aithmetic operations
 
   let a=7
   let b=3
@@ -82,3 +83,11 @@ const person = {
   console.log(a)
   b--
   console.log(b)
+
+  // operations
+  console.log(3>4)
+  console.log(3<4)
+  console.log(3>=4)
+  console.log(3>=3)
+  console.log(3=='3')
+  console.log(3==='3')
