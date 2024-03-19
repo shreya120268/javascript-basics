@@ -91,3 +91,26 @@ const person = {
   console.log(3>=3)
   console.log(3=='3')
   console.log(3==='3')
+
+  // conditions
+  let weatherCondition="Sunny"
+  let subcondition="Too Hot"
+
+  if (weatherCondition="Cloudy"){
+    console.log("Take an umbrella")
+  }
+  else if (weatherCondition="Rainy"){
+    console.log("Use an umbrella")
+  }
+  else if (weatherCondition="Sunny"){
+    if (subcondition="Too Hot"){
+      console.log("Use the umbrella")
+    }
+    else{
+      console.log("Don't use the umbrella")
+    }
+  }
+  else{
+    console.log("Don't take the umbrella")
+  }
+  
