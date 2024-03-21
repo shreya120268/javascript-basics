@@ -117,3 +117,15 @@ const person = {
   // Ternary operator
   let result = 9<15
   result ? console.log("Result is True") : console.log("Result is False")
+
+  const age=prompt("Enter your age")
+  if (age>60){
+    console.log("senior citizen")
+  }
+  else if(age<18)
+  {
+    console.log("minor")
+  }
+  else{
+    console.log("major")
+  }
