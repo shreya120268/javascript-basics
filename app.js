@@ -168,3 +168,11 @@
     rand=Math.random()
     console.log(rand)
   }
+// calculate the factorial
+let n=prompt("Enter the number")
+let i=0
+let sum=0
+for (i;i<=n;i++){
+  sum=sum*i
+}
+console.log(sum)
