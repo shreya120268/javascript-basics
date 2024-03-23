@@ -152,3 +152,19 @@
   if (b1 && b2){
     console.log("Hello")
   }
+
+  // for loops
+  let arr=[45,57,63,67]
+  for (let i=0;i<arr.length;i++){
+    console.log(arr[i])
+  }
+
+  // while loop
+  let rand=Math.random()
+  console.log(rand)
+
+  while (rand>0.5){
+    console.log("Rand is greater than 5")
+    rand=Math.random()
+    console.log(rand)
+  }
