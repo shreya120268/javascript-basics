@@ -170,9 +170,17 @@
   }
 // calculate the factorial
 let n=prompt("Enter the number")
-let i=0
-let sum=0
+let i=1
+let sum=1
 for (i;i<=n;i++){
   sum=sum*i
 }
 console.log(sum)
+
+// functions
+
+const printname= (name)=>{
+  console.log(name)
+}
+printname("Shreya")
+printname("Hello")
