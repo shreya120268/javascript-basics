@@ -187,3 +187,11 @@ function printNewName(name){
 }
 printname("Shreya")
 printNewName("Hello")
+
+//early return
+const fun =() =>{
+  console.log('1')
+  return true
+  console.log('2')
+}
+console.log(fun())
