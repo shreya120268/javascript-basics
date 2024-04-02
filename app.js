@@ -190,8 +190,96 @@ printNewName("Hello")
 
 //early return
 const fun =() =>{
-  console.log('1')
+  //console.log('1')
   return true
-  console.log('2')
+  //console.log('2')
 }
-console.log(fun())
+//console.log(fun())
+
+const printNameLen = () => {
+ // let name= prompt("Enter the name")
+  //console.log(name.length)
+}
+printNameLen()
+
+//const printSum =(a,b) =>{
+  
+//  let sum=a+b
+//  console.log(sum)
+//}
+//const a = prompt("Enter number 1")
+//const b = prompt("Enter number 2")
+//printSum(a,b)
+
+const addFn = (a,b) =>{
+  return a+b
+}
+console.log(addFn(5,6))
+ 
+const cfun =() =>{
+  console.log("Sum printed")
+}
+const addFn1 = (a,b,fun)=>{
+  console.log(a+b)
+  fun()
+}
+addFn1(5,4,cfun)
+
+//create a printAge function which prints the numbers passed into it 
+//create a isAgeOdd function with the number and printage function as parameters
+//check whether the number is odd and call the printAge function
+//Else don't call the function
+
+const printnum = (num) => {
+  console.log(num)
+}
+const ifOddNum = (num,func) => {
+  if  (num%2==0){
+    console.log("Num is even")
+  }
+  else {
+    func(num)
+  } 
+}
+ifOddNum(5,printnum)
+
+const j=9
+if (true){
+  let k=10
+  //console.log(j)
+  //console.log(k)
+}
+//console.log(k)
+
+const a= "Shreya"
+const printnam = (word) => {
+  console.log('Hello ' + word)
+}
+printnam(a)
+
+const c=98
+const farenheit= (c) => {
+  f= (9/5)*c+32
+  console.log(f)
+}
+farenheit(c)
+
+const isEven = (num) =>{
+  if (num%2==0){
+    console.log("True")
+  }
+  else{
+    console.log("False")
+  } 
+}
+num=10
+isEven(num)
+
+const factorial = (num) =>{
+  fact=1
+  for (i=1;i<=num;i++){
+    fact=fact*i
+  }
+  console.log(fact)
+}
+factorial (5)
